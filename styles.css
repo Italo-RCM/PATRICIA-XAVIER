@@ -1,0 +1,189 @@
+/*PARTE 01 - HEADER*/
+
+@font-face {
+    font-family: "Medallion";
+    src: url("/FONT/medallion-typeface.ttf")
+    format("truetype");
+    font-style: normal;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: "Prometo";
+    src: url("../FONTE/Prometo/Prometo-Medium.ttf")
+    format("truetype");
+    font-style: normal;
+    font-size: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    width: 100vw;
+    height: 866px;
+}
+
+body, html {
+    overflow-x: hidden !important;
+}
+
+#BANNER-HEADER {
+    width: 100%;
+    height: 100%;
+}
+
+.div-absolute-header {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+#logo {
+    width: 450px;
+}
+
+h2 {
+    font-family: "Medallion";
+    font-size: 40px;
+}
+
+p, li {
+    font-family: "Prometo";
+    font-size: 20px;
+}
+
+/*--------------------------------------------------------------------------*/
+
+/* PARTE 02 - MAIN*/
+
+#div-servicos {
+    height: 410px;
+    display: flex;
+    align-items: center;
+    background-color: #e1e1e1;
+    padding-bottom: 100px;
+}
+
+.div-servicos-img {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-pessoa {
+    width: 80%;
+}
+
+.div-servicos-texto-01 {
+    padding-bottom: 30PX;
+}
+
+/* PARTE 03 - MAIN */
+
+.div-servocos-modelo-01 {
+    height: 420px;
+    background-color: #cbcac5;
+    display: flex;
+    align-items: center;
+}
+
+.div-servocos-img-modelo-01 {
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-modelo-01 {
+    width: 50%;
+    padding-left: 165px;
+}
+
+.div-servicos-texto {
+    padding-left: 200px;
+    padding-bottom: 30PX;
+}
+
+/* PARTE 4 - MAIN */
+
+.div-servocos-modelo-02 {
+    height: 420px;
+    background-color: #e1e1e1;
+    display: flex;
+    align-items: center;
+}
+
+.div-servocos-img-modelo-02 {
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-modelo-02 {
+    width: 50%;
+    padding-left: 500px;
+}
+
+.img-modelo-02-af {
+    width: 50%;
+    padding-left: 129px;
+}
+
+.div-servicos-texto {
+    padding-left: 300px;
+    padding-bottom: 30px;
+}
+
+/* PARTE 7 - MAIN */
+
+#div-banner-meio {
+    height: 1050px;
+    background-color: #e1e1e1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-agende-horario {
+    width: 50%;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-banner-meio {
+    width: 100%;
+}
+
+#div-banner-meio, .p-banner-meio {
+    padding-top: 50px;
+}
+
+/* PARTE 8 - FOOTHER */
+
+#logo-footer {
+    width: 450px;
+    padding-left: 517px;
+    padding-top: 91px;
+}
+
+.div-sobreposto-banner {
+    position: absolute;
+}
+
+.img-footer {
+    width: 100%;
+}
