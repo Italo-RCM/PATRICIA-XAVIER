@@ -22,6 +22,7 @@ html {
 
 body {
     margin: 0;
+    background-color: #e1e1e1;
 }
 
 header {
@@ -33,9 +34,12 @@ body, html {
     overflow-x: hidden !important;
 }
 
-#BANNER-HEADER {
+.BANNER-HEADER {
     width: 100%;
     height: 100%;
+    background-image: url("imagens/BANNER-HEADER-PATRICIA-XAVIER-DESKTOP.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .div-absolute-header {
@@ -58,6 +62,18 @@ p, li {
     font-size: 20px;
 }
 
+.p-header {
+    width: 490px;
+}
+
+.a-img {
+    flex-direction: row;
+}
+
+.img-insta {
+    width: 50%;
+}
+
 /*--------------------------------------------------------------------------*/
 
 /* PARTE 02 - MAIN*/
@@ -78,23 +94,30 @@ p, li {
 }
 
 .img-pessoa {
-    width: 80%;
+    width: 50%;
+    padding-top: 90px;
 }
 
 .div-servicos-texto-01 {
     padding-bottom: 30PX;
 }
 
+.p-servicos {
+    width: 730px;
+}
+
+
 /* PARTE 03 - MAIN */
 
-.div-servocos-modelo-01 {
+.div-servicos-modelo-01 {
     height: 420px;
     background-color: #cbcac5;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.div-servocos-img-modelo-01 {
+.div-servicos-img-modelo-01 {
     width: 30vw;
     height: 100%;
     display: flex;
@@ -112,16 +135,26 @@ p, li {
     padding-bottom: 30PX;
 }
 
+.div-alinhar{
+    display: flex;
+
+}
+
+.li-servicos {
+    margin-bottom: 15px;
+}
+
 /* PARTE 4 - MAIN */
 
-.div-servocos-modelo-02 {
+.div-servicos-modelo-02 {
     height: 420px;
     background-color: #e1e1e1;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.div-servocos-img-modelo-02 {
+.div-servicos-img-modelo-02 {
     width: 30vw;
     height: 100%;
     display: flex;
@@ -131,23 +164,20 @@ p, li {
 
 .img-modelo-02 {
     width: 50%;
-    padding-left: 500px;
 }
 
 .img-modelo-02-af {
     width: 50%;
-    padding-left: 129px;
 }
 
 .div-servicos-texto {
-    padding-left: 300px;
-    padding-bottom: 30px;
+    padding-left: 75px;
 }
 
 /* PARTE 7 - MAIN */
 
 #div-banner-meio {
-    height: 1050px;
+    height: 1300px;
     background-color: #e1e1e1;
     display: flex;
     flex-direction: column;
@@ -168,11 +198,23 @@ a {
     width: 100%;
 }
 
-#div-banner-meio, .p-banner-meio {
+#div-banner-meio {
     padding-top: 50px;
 }
 
+.p-banner-meio {
+    padding-top: 50px;
+    width: 816px;
+}
+
+/*--------------------------------------------------------------------------*/
+
 /* PARTE 8 - FOOTHER */
+
+footer {
+    width: 100vw;
+    height: 866px;
+}
 
 #logo-footer {
     width: 450px;
@@ -180,10 +222,276 @@ a {
     padding-top: 91px;
 }
 
+.a-img-footer {
+    flex-direction: row;
+}
+
+.img-insta-footer {
+   width: 30%; 
+   padding-top: 100px;
+   padding-left: 100px;
+}
+
 .div-sobreposto-banner {
     position: absolute;
 }
 
-.img-footer {
+.BANNER-FOOTER {
     width: 100%;
+    height: 100%;
+    background-image: url("imagens/BANNER-PATRICIA-XAVIER-FOOTER-DESKTOP.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/*--------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/* PARTE 9 - RESPONSIVO */
+
+@media screen and (max-width: 430px) {
+    
+    /*PARTE 10 - CELULAR HEADER*/
+
+    .BANNER-HEADER {
+        background-image: url("imagens/BANNER-HEADER-PATRICIA-XAVIER-MOBILE.png");
+    }
+
+    .div-absolute-header {
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 0px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #logo {
+        padding-top: 40px;
+        width: 300px;
+    }
+    
+    h2 {
+        padding-top: 333px;
+    }
+    
+    p, li {
+        font-size: 18px;
+    }
+
+    .p-header {
+        width: 373px;
+    }
+    
+    .a-img {
+        flex-direction: column;
+    }
+    
+    .img-insta {
+        width: 40%;
+        padding-top: 30px;
+    }
+
+    /*PARTE 11 - CELULAR MAIN*/
+
+    #div-servicos {
+        height: 830px;
+        display: flex;
+        align-items: center;
+        background-color: #e1e1e1;
+        padding-bottom: 100px;
+        flex-direction: column;
+    }
+    
+    .div-servicos-img {
+        justify-content: center;
+    }
+    
+    .img-pessoa {
+        width: 180%;
+        padding-top: 130px;
+    }
+    
+    .div-servicos-texto-01 {
+        padding-bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .h2-servicos {
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .h2-servicos-02 {
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    
+    .p-servicos {
+        width: 330px;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    /*PARTE 12 - CELULAR MAIN*/
+
+    .div-servicos-modelo-01 {
+        height: 750px;
+        flex-direction: column;
+    }
+    
+    .div-servicos-img-modelo-01 {
+        width: 110%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .img-modelo-01 {
+        width: 50%;
+        padding-left: 0px;
+    }
+    
+    .div-servicos-texto {
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+
+    .li-servicos {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .div-servicos-modelo-02 {
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    
+    .div-servicos-img-modelo-02 {
+        width: 30vw;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .img-modelo-02 {
+        width: 200%;
+    }
+    
+    .img-modelo-02-af {
+        width: 200%;
+    }
+
+    .div-servicos-texto-af {
+        width: 280px;
+    }
+
+    /*PARTE 13 - CELULAR MAIN*/
+
+    #div-banner-meio {
+        height: 588px;
+    }
+    
+    .p-banner-meio {
+        width: 360px;
+        text-align: center;
+    }
+    
+    /* PARTE 14 - CELULAR FOOTHER */
+
+    #logo-footer {
+        width: 300px;
+        padding-left: 45px;
+        padding-top: 0px;
+    }
+
+    .img-insta-footer {
+    width: 40%; 
+    padding-top: 160px;
+    padding-left: 10px;
+    }
+
+    .a-img-footer {
+        flex-direction: row;
+    }
+
+    .div-sobreposto-banner {
+        position: absolute;
+    }
+
+    .BANNER-FOOTER {
+        background-image: url("imagens/BANNER-PATRICIA-XAVIER-FOOTER-MOBILE.png");
+    }
+
+}
+
+/* PARTE 15 - RESPONSIVO */
+
+@media screen and (max-width: 392px) {
+
+    .p-header {
+        width: 270px;
+        text-align: center;
+    }
+
+    .li-servicos {
+        margin-bottom: 15px;
+    }
+
+    .div-servicos-texto-af {
+        width: 316px;
+    }
+
+    .p-banner-meio {
+        width: 282px;
+    }
+
+    footer {
+        height: 717px;
+    }
+
+    #logo-footer {
+        width: 209px;
+        padding-left: 84px;
+        padding-top: 63px;
+    }
+
+    .img-insta-footer {
+        width: 40%;
+        padding-top: 88px;
+        padding-left: 23px;
+    }
+
+}
+
+/* PARTE 16 - RESPONSIVO */
+
+@media screen and (max-width: 362px) {
+
+    .div-servicos-texto {
+        width: 278px;
+    }
+
+    .li-servicos {
+        margin-bottom: 15px;
+    }
+
+    .img-insta-footer {
+        padding-left: 9px;
+    }
+
 }
