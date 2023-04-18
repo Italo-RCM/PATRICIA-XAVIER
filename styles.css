@@ -289,6 +289,8 @@ footer {
 
     .p-header {
         width: 373px;
+        text-align: center;
+        text-align: justify;
     }
     
     .a-img {
@@ -340,6 +342,7 @@ footer {
     .p-servicos {
         width: 330px;
         text-align: center;
+        text-align: justify;
         margin-top: 0px;
     }
 
@@ -409,6 +412,7 @@ footer {
     .p-banner-meio {
         width: 360px;
         text-align: center;
+        text-align: justify;
     }
     
     /* PARTE 14 - CELULAR FOOTHER */
@@ -420,9 +424,9 @@ footer {
     }
 
     .img-insta-footer {
-    width: 40%; 
-    padding-top: 160px;
-    padding-left: 10px;
+        width: 40%; 
+        padding-top: 160px;
+        padding-left: 10px;
     }
 
     .a-img-footer {
@@ -446,6 +450,7 @@ footer {
     .p-header {
         width: 270px;
         text-align: center;
+        text-align: justify;
     }
 
     .li-servicos {
