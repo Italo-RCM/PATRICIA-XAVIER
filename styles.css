@@ -296,6 +296,15 @@ footer {
 }
 
 
+
+
+
+
+
+
+
+/* PARTE 10 - RESPONSIVO */
+
 @media screen and (max-width: 886px) {
 
     header {
@@ -343,20 +352,24 @@ footer {
 
 }
 
-@media screen and (max-width: 886px) {
 
-    .img-insta-footer {
-        padding-left: 20px;
-    }
 
-}
+
+
+
+
+
+
+/* PARTE 11 - RESPONSIVO */
 
 @media screen and (max-width: 430px) {
-    
-    /*PARTE 10 - CELULAR HEADER*/
 
     .BANNER-HEADER {
         background-image: url("imagens/BANNER-HEADER-PATRICIA-XAVIER-MOBILE.png");
+    }
+
+    header {
+        height: 755px;
     }
 
     .div-absolute-header {
@@ -397,8 +410,6 @@ footer {
         padding-top: 30px;
     }
 
-    /*PARTE 11 - CELULAR MAIN*/
-
     #div-servicos {
         height: 830px;
         display: flex;
@@ -415,6 +426,10 @@ footer {
     .img-pessoa {
         width: 180%;
         padding-top: 130px;
+    }
+
+    .div-servicos-texto {
+        width: 273px;
     }
     
     .div-servicos-texto-01 {
@@ -440,8 +455,6 @@ footer {
         text-align: justify;
         margin-top: 0px;
     }
-
-    /*PARTE 12 - CELULAR MAIN*/
 
     .div-servicos-modelo-01 {
         height: 750px;
@@ -498,8 +511,6 @@ footer {
         width: 280px;
     }
 
-    /*PARTE 13 - CELULAR MAIN*/
-
     #div-banner-meio {
         height: 588px;
     }
@@ -509,19 +520,21 @@ footer {
         text-align: center;
         text-align: justify;
     }
-    
-    /* PARTE 14 - CELULAR FOOTHER */
+
+    footer {
+        height: 791px;
+    }
 
     #logo-footer {
         width: 300px;
-        padding-left: 45px;
-        padding-top: 0px;
+        padding-left: 43px;
+        padding-top: 70px;
     }
 
     .img-insta-footer {
         width: 40%; 
-        padding-top: 160px;
-        padding-left: 10px;
+        padding-top: 62px;
+        padding-left: 22px;
     }
 
     .a-img-footer {
@@ -538,6 +551,16 @@ footer {
 
 }
 
+
+
+
+
+
+
+
+
+/* PARTE 12 - RESPONSIVO */
+
 @media screen and (max-width: 415px) {
 
     footer {
@@ -552,7 +575,15 @@ footer {
 
 }
 
-/* PARTE 15 - RESPONSIVO */
+
+
+
+
+
+
+
+
+/* PARTE 13 - RESPONSIVO */
 
 @media screen and (max-width: 392px) {
 
@@ -566,11 +597,20 @@ footer {
         margin-bottom: 15px;
     }
 
+    .div-servicos-texto {
+        width: 226px;
+    }
+
     .div-servicos-texto-af {
-        width: 316px;
+        width: 235px;
+    }
+
+    .img-insta {
+        padding-top: 0px;
     }
 
     .p-banner-meio {
+        padding-top: 35px;
         width: 282px;
     }
 
@@ -592,7 +632,15 @@ footer {
 
 }
 
-/* PARTE 16 - RESPONSIVO */
+
+
+
+
+
+
+
+
+/* PARTE 14 - RESPONSIVO */
 
 @media screen and (max-width: 377px) {
 
@@ -607,6 +655,16 @@ footer {
     }
 
 }
+
+
+
+
+
+
+
+
+
+/* PARTE 15 - RESPONSIVO */
 
 @media screen and (max-width: 362px) {
 
@@ -627,6 +685,16 @@ footer {
     }
 
 }
+
+
+
+
+
+
+
+
+
+/* PARTE 16 - RESPONSIVO */
 
 @media screen and (max-width: 322px) {
 
