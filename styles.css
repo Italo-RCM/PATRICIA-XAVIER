@@ -228,8 +228,8 @@ footer {
 
 .img-insta-footer {
    width: 30%; 
-   padding-top: 100px;
-   padding-left: 100px;
+   padding-top: 82px;
+   padding-left: 77px;
 }
 
 .div-sobreposto-banner {
@@ -255,6 +255,101 @@ footer {
 
 
 /* PARTE 9 - RESPONSIVO */
+
+@media screen and (max-width: 1283px) {
+
+    header {
+        height: 719px;
+    }
+
+    .div-absolute-header {
+        margin-top: 85px;
+        margin-left: 119px;
+    }
+
+    .div-servicos-texto-01 {
+        padding-bottom: 0px;
+    }
+
+    .p-servicos {
+        width: 520px;
+    }
+
+    footer {
+        height: 708px;
+    }
+
+    #div-banner-meio {
+        height: 1000px;
+    }
+
+    #logo-footer {
+        padding-left: 385px;
+        padding-top: 0px;
+    }
+
+    .img-insta-footer {
+        padding-top: 113px;
+        padding-left: 64px;
+    }
+
+}
+
+
+@media screen and (max-width: 886px) {
+
+    header {
+        height: 498px;
+    }
+
+    .div-absolute-header {
+        margin-top: 31px;
+        margin-left: 50px;
+    }
+
+    #logo {
+        width: 300px;
+    }
+
+    .p-header {
+        width: 387px;
+    }
+
+    .p-banner-meio {
+        padding-top: 151px;
+        width: 661px;
+    }
+
+    .div-servicos-texto {
+        width: 439px;
+    }
+
+    .div-servicos-texto-af {
+        width: 439px;
+    }
+
+    footer {
+        height: 485px;
+    }
+
+    #logo-footer {
+        padding-left: 169px;
+    }
+
+    .img-insta-footer {
+        padding-top: 0px;
+        padding-left: 42px;
+    }
+
+}
+
+@media screen and (max-width: 886px) {
+
+    .img-insta-footer {
+        padding-left: 20px;
+    }
+
+}
 
 @media screen and (max-width: 430px) {
     
@@ -443,6 +538,20 @@ footer {
 
 }
 
+@media screen and (max-width: 415px) {
+
+    footer {
+        height: 755px;
+    }
+
+    .img-insta-footer {
+        width: 30%; 
+        padding-top: 112px;
+        padding-left: 20px;
+    }
+
+}
+
 /* PARTE 15 - RESPONSIVO */
 
 @media screen and (max-width: 392px) {
@@ -485,14 +594,32 @@ footer {
 
 /* PARTE 16 - RESPONSIVO */
 
+@media screen and (max-width: 377px) {
+
+    footer {
+        height: 676px;
+    }
+
+    .img-insta-footer {
+        width: 30%; 
+        padding-top: 70px;
+        padding-left: 20px;
+    }
+
+}
+
 @media screen and (max-width: 362px) {
 
-    .div-servicos-texto {
-        width: 278px;
+    .div-servicos-texto, .div-servicos-texto-af {
+        width: 240px;
     }
 
     .li-servicos {
         margin-bottom: 15px;
+    }
+
+    .p-servicos {
+        width: 270px;
     }
 
     .img-insta-footer {
@@ -500,3 +627,45 @@ footer {
     }
 
 }
+
+@media screen and (max-width: 322px) {
+
+    #logo {
+        padding-top: 40px;
+        width: 280px;
+        padding-right: 30px;
+    }
+
+    .p-servicos {
+        width: 230px;
+    }
+
+    .div-servicos-texto {
+        width: 210px;
+    }
+
+    .div-servicos-texto-af {
+        width: 210px;
+    }
+
+    .p-banner-meio {
+        width: 232px;
+    }
+
+    footer {
+        height: 589px;
+    }
+
+    #logo-footer {
+        padding-left: 46px;
+        padding-top: 31px;
+    }
+
+    .img-insta-footer {
+        padding-top: 68px;
+        padding-left: 20px;
+    }
+
+}
+
+
